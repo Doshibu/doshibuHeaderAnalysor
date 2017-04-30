@@ -7,12 +7,12 @@
   },
   "description": "Doshibu's first add-on on Mozilla's browser application, Firefox",
   "homepage_url": "https://github.com/Doshibu/doshibu_Add-On",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Doshibu Add-On",
   "options_ui": {
       "page": "options.html",
       "browser_style": true
   },
   "permissions": ["storage"],
-  "version": "1.1",
+  "version": "1.1"
 }

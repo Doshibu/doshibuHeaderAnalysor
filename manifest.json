@@ -1,26 +1,30 @@
 {
-  "background": {
-      "scripts": ["background.js"]
-  },
-  "browser_action": {
-      "default_title": "Doshibu_Add-On"
-  },
-  "description": "Doshibu's first add-on on Mozilla's browser application, Firefox",
-  "homepage_url": "https://github.com/Doshibu/doshibu_Add-On",
-  "manifest_version": 2,
-  "name": "Doshibu Add-On",
-  "options_ui": {
-      "page": "options.html",
-      "browser_style": true
-  },
-  "permissions": ["storage"],
-  "version": "1.1",
-  "icons": {
-    "48": "icons/border-48.png"
-  },
-  "content_scripts": [{
-      "matches": ["*://*/*"],
-      "css": ["lib/font-awesome.min.css", "lib/bootstrap.css", "style.css"],
-      "js": ["lib/jquery-3.2.1.min.js", "lib/bootstrap.js", "report.js"]
-    }]
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icons/border-16.png",
+			"32": "icons/border-32.png"
+		},
+		"default_title": "Doshibu_Add-On"
+	},
+	"description": "Doshibu's first add-on on Mozilla's browser application, Firefox",
+	"homepage_url": "https://github.com/Doshibu/doshibu_Add-On",
+	"manifest_version": 2,
+	"name": "Doshibu Add-On",
+	"options_ui": {
+		"page": "options.html",
+		"browser_style": true
+	},
+	"permissions": ["storage"],
+	"version": "1.1",
+	"icons": {
+		"48": "icons/border-48.png"
+	},
+	"content_scripts": [{
+		"matches": ["*://*/*"],
+		"css": ["lib/font-awesome.min.css", "lib/bootstrap.css", "style.css"],
+		"js": ["lib/jquery-3.2.1.min.js", "lib/bootstrap.js", "report.js"]
+	}]
 }

@@ -17,6 +17,10 @@
 	cursor: pointer;
 }
 
+#doshibuAddon_list .label i.fa {
+	margin-right: 5px;
+}
+
 #doshibuAddon_container .collapse {
 	width: 50%;
 	margin: 15px 25%;

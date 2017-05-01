@@ -20,6 +20,7 @@
   },
   "content_scripts": [{
       "matches": ["*://*.mozilla.org/*"],
-      "js": ["borderify.js"]
+      "css": ["lib/bootstrap.css", "style.css"],
+      "js": ["lib/jquery-3.2.1.min.js", "lib/bootstrap.js", "borderify.js"]
     }]
 }

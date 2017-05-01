@@ -19,7 +19,7 @@
     "48": "icons/border-48.png"
   },
   "content_scripts": [{
-      "matches": ["*://*.mozilla.org/*"],
+      "matches": ["*://*/*"],
       "css": ["lib/font-awesome.min.css", "lib/bootstrap.css", "style.css"],
       "js": ["lib/jquery-3.2.1.min.js", "lib/bootstrap.js", "report.js"]
     }]

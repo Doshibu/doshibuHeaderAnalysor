@@ -1,10 +1,23 @@
-.widget-container > * {
-    display: inline-block;
-    vertical-align: top;
-    overflow: hidden; /* Could move this */
-    padding-right: 0.1em;
+#doshibuAddon_container {
+	width: 80%; 
+	margin: 0 10% 15px 10%; 
+	text-align: center;
 }
-.widget-vert-rotate {
-    overflow: hidden;
-    height: 1.1em;
+
+#doshibuAddon_list {
+	margin: 5px;
+}
+
+#doshibuAddon_list .label {
+	margin: 10px;
+	padding: .5em 1em .5em;
+}
+
+#doshibuAddon_list .label:hover {
+	cursor: pointer;
+}
+
+#doshibuAddon_container .collapse {
+	width: 50%;
+	margin: 15px 25%;
 }

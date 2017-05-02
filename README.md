@@ -1,10 +1,10 @@
-# Doshibu Add-On
+#  :japanese_goblin: Doshibu Add-On  :muscle:
 This project allow me to discover the webExtension development.
 Currenlty, this Addon deal like an HTTP Header Security Analysor.
 
 The main and only variable checked has been discovered using the [**securityheaders.io**](https://securityheaders.io/).
 
-## To use it
+##  :open_mouth: To use it  :ok_hand:
 Open the Add-On manager and click on a button like "Load a temporary module".
 It will open a file uploader, then you will just have to submit the manifest.json.
 

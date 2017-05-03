@@ -1,4 +1,4 @@
-#  :japanese_goblin: Doshibu Add-On  :muscle:
+#  :japanese_goblin: DoshibuHeaderAnalysor  :muscle:
 This project allow me to discover the webExtension development.
 Currenlty, this Addon deal like an HTTP Header Security Analysor.
 
